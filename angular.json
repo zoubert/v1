@@ -23,9 +23,18 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/app/assets/vendor/nucleo/css/nucleo.css",
+              "src/app/assets/vendor/font-awesome/css/font-awesome.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/assets/js/argon.js",
+              "src/app/assets/vendor/headroom/headroom.min.js",
+              "src/app/assets/vendor/bootstrap/bootstrap.min.js",
+              "src/app/assets/vendor/popper/popper.min.js",
+              "src/app/assets/vendor/jquery/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {
