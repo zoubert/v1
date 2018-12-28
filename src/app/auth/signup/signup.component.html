@@ -1,5 +1,5 @@
 <!--<div class="col-md-6 mx-auto">-->
-<header class="header-global">
+<!--<header class="header-global">
   <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
     <div class="container">
       <a class="navbar-brand mr-lg-5" href="../index.html">
@@ -112,7 +112,7 @@
       </div>
     </div>
   </nav>
-</header>
+</header>-->
 
 <main>
   <section class="section section-shaped section-lg">
@@ -142,6 +142,11 @@
                   </span>
                   <span class="btn-inner--text">Google</span>
                 </a>
+                <ul>
+                  <li class="text" *ngFor="let item of items | async">
+                    {{item.name}}
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card-body px-lg-5 py-lg-5">
